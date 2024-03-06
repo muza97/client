@@ -39,7 +39,7 @@ export const categories = [
       {
         id: 1,
         name: 'Papa Johns',
-        image: require('../assets/images/papaJohns.png'), // Update the image file name accordingly
+        image: require('../assets/images/pap.j.jpeg'),
         description: 'Hot and spicy pizza',
         lng: 38.2145602,
         lat: -85.5324269,
@@ -53,22 +53,74 @@ export const categories = [
             name: 'Cheezy Garlic Pizza',
             description: 'Cheesy garlic flavored pizza',
             price: 10,
-            image: require('../assets/images/cheezyGarlicPizza.png'), // Update the image file name accordingly
+            image: require('../assets/images/cheezyGarlicPizza.png'),
           },
           {
             id: 2,
             name: 'Pepperoni Pizza',
             description: 'Classic Pepperoni Pizza',
             price: 12,
-            image: require('../assets/images/pepperoniPizza.png'), // Update the image file name accordingly
+            image: require('../assets/images/pepperoniPizza.png'),
           },
-          // Add more dishes here
         ],
       },
-      // Add more restaurants here
+      {
+        id: 2,
+        name: 'Mama Mia Pizza',
+        image: require('../assets/images/pap.j.jpeg'),
+        description: 'Italian family pizza',
+        lng: 38.215123,
+        lat: -85.533456,
+        address: '350 Third Street',
+        stars: 5,
+        reviews: '2.3k',
+        category: 'Pizza',
+        dishes: [
+          {
+            id: 3,
+            name: 'Margherita Pizza',
+            description: 'Classic Margherita with fresh mozzarella and basil',
+            price: 8,
+            image: require('../assets/images/cheezyGarlicPizza.png'), // Update path as needed
+          },
+          {
+            id: 4,
+            name: 'Meat Lovers Pizza',
+            description: 'Loaded with pepperoni, ham, and sausage',
+            price: 12,
+            image: require('../assets/images/cheezyGarlicPizza.png'), // Update path as needed
+          },
+        ],
+      },
+      // Additional restaurants follow the same structure...
+      {
+        id: 5,
+        name: 'Noodle House',
+        image: require('../assets/images/pap.j.jpeg'),
+        description: 'Authentic noodle dishes',
+        lng: 38.218901,
+        lat: -85.536789,
+        address: '600 Sixth Street',
+        stars: 4.8,
+        reviews: '5k',
+        category: 'Noodles',
+        dishes: [
+          {
+            id: 9,
+            name: 'Pad Thai',
+            description: 'Stir-fried rice noodle dish with shrimp, peanuts, egg, and bean sprouts',
+            price: 10,
+            image: require('../assets/images/cheezyGarlicPizza.png'), // Update path as needed
+          },
+          {
+            id: 10,
+            name: 'Pho',
+            description: 'Vietnamese noodle soup with beef, lime, and herbs',
+            price: 12,
+            image: require('../assets/images/cheezyGarlicPizza.png'), // Update path as needed
+          },
+        ],
+      },
+      // Add more restaurants here...
     ],
   };
-  
-  // Make sure to update the paths to the images accordingly.
-  // Also, add more restaurants and dishes as per your requirement.
-  
